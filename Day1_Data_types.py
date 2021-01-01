@@ -13,4 +13,4 @@ print(a+i)
 # Print the sum of the double variables on a new line.
 print(b +d)
 # Concatenate and print the String variables on a new line
-print(s + string)
+print(s + string) 
