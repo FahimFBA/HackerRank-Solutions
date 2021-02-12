@@ -4,3 +4,5 @@
 #ignoring all class of java
 *.class
 
+# ignore .o 
+*.o
