@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class solve{
+public class java_output_formatting{
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
