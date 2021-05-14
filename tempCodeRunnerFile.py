@@ -1,13 +1,10 @@
-n=int(input())
-max=0
-result=0
-while n>0:
-    if n%2==1:
-        result=result+1
-        if result>max:
-            max=result
-    else:
-        result=0
-            
-    n=n/2
-print(max)
+if __name__ == '__main__':
+    n = int(input())
+    student_marks = {}
+    for _ in range(n):
+        name, *line = input().split()
+        scores = list(map(float, line))
+        student_marks[name] = scores
+    query_name = input()
+    avg = float(sum(scores) / len(scores)) # For average of the list named score, we need the sum / len of the list
+    print(avg)
